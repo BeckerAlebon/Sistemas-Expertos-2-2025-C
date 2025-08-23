@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tres en Raya Tic Tac Toe | Sistemas Expertos</title>
+  <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+  <h1>Tres en Raya (Tic Tac Toe) con IA</h1>
+
+  <div id="starter">
+    <h2>¿Quién inicia el juego?</h2>
+    <button id="humanStart">Humano</button>
+    <button id="aiStart">Máquina</button>
+  </div>
+
+  <div id="gameBoard">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+
+  <div id="result"></div>
+  <button id="restartBtn">Jugar de nuevo</button>
+  <button id="endGameBtn">Finalizar juego</button>
+
+  <div id="history">
+    <h2>Historial de jugadas</h2>
+    <ul id="historyList"></ul>
+  </div>
+
+  <script src="tictactoe.js"></script>
+</body>
+</html>
